@@ -8,8 +8,8 @@ import (
 	"io"
 	"runtime"
 
-	"github.com/smallnest/rpcx/log"
-	"github.com/smallnest/rpcx/util"
+	"github.com/AllenCXS/rpcx/log"
+	"github.com/AllenCXS/rpcx/util"
 )
 
 var bufferPool = util.NewLimitedPool(512, 4096)

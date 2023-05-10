@@ -6,10 +6,10 @@
 
 ## 1.8.0
 - supports distributed rate limiter based on go-redis/redis-rate
-- move zookeeper plugin to https://github.com/smallnest/rpcx-zookeepr
-- move consul plugin to https://github.com/smallnest/rpcx-consul
-- move redis plugin to https://github.com/smallnest/rpcx-redis
-- move influxd/opentelemetry plugin to https://github.com/smallnest/rpcx-plugins
+- move zookeeper plugin to https://github.com/AllenCXS/rpcx-zookeepr
+- move consul plugin to https://github.com/AllenCXS/rpcx-consul
+- move redis plugin to https://github.com/AllenCXS/rpcx-redis
+- move influxd/opentelemetry plugin to https://github.com/AllenCXS/rpcx-plugins
 - you can write customized error, for example `{"code": 500, err: "internal error"}`
 - server support the work pool by `WithPool`
 - support to write services like `go std http router` style without reflect
@@ -85,7 +85,7 @@
 - Support dynamic port allocation
 - Use go module to manage dependencies
 - Support shutdown graceful
-- Add [rpcx-java](https://github.com/smallnest/rpcx-java) to support develop raw java services and clients
+- Add [rpcx-java](https://github.com/AllenCXS/rpcx-java) to support develop raw java services and clients
 - Support thrift codec 
 - Setup rpcx offcial site: http://rpcx.io
 - Add Chinese document: http://cn.doc.rpcx.io or https://smallnest.gitbooks.io/go-rpc-programming-guide
@@ -104,7 +104,7 @@ fix bugs.
 
 - Rewrite rpcx. It implements its protocol and won't implemented based on wrapper of go standard rpc lib
 - Add go tags for pluggable plugins
-- Add English document: https://github.com/smallnest/rpcx-programming
+- Add English document: https://github.com/AllenCXS/rpcx-programming
 - Add rpcx 3.0 examples: https://github.com/rpcxio/rpcx-examples
 
 rpcx 3.0 is not compatible with rpcx 2.0 and below
