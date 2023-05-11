@@ -7,8 +7,8 @@ import (
 	"crypto/tls"
 	"net"
 
+	"github.com/AllenCXS/quick"
 	"github.com/quic-go/quic-go"
-	"github.com/smallnest/quick"
 )
 
 func newDirectQuicConn(c *Client, network, address string) (net.Conn, error) {
