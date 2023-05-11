@@ -3,7 +3,7 @@ module github.com/AllenCXS/rpcx
 go 1.20
 
 require (
-	github.com/AllenCXS/quick v0.0.0-20230511015326-7d3ca1f4bb17
+	github.com/AllenCXS/quick v1.0.0
 	github.com/ChimeraCoder/gojson v1.1.0
 	github.com/akutz/memconn v0.1.0
 	github.com/alitto/pond v1.8.3
