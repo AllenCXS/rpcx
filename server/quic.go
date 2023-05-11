@@ -7,7 +7,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/smallnest/quick"
+	"github.com/AllenCXS/quick"
 )
 
 func init() {
